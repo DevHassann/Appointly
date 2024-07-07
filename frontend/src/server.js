@@ -1,0 +1,1 @@
+export const server = "https://appointly-backend-ten.vercel.app/api/v2";
