@@ -1,1 +1,1 @@
-export const server = "https://appointly-backend-ten.vercel.app/api/v2";
+export const server = "http://appointly-backend-ten.vercel.app/api/v2";
