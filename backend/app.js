@@ -7,7 +7,7 @@ const cors = require("cors");
 
 app.use(
   cors({
-    origin: "https://appointly-mu.vercel.app",
+    origin: "https://appointly-seven.vercel.app",
     credentials: true,
   })
 );

@@ -146,7 +146,7 @@ router.post("/forget-password", async (req, res, next) => {
 
     await user.save();
 
-    const resetLink = `https://appointly-mu.vercel.app/reset-password/${user.resetPasswordToken}`;
+    const resetLink = `https://appointly-seven.vercel.app/reset-password/${user.resetPasswordToken}`;
     const message = `To reset your password, click on the following link: ${resetLink}`;
 
     await sendMail({
