@@ -19,7 +19,7 @@ import { UserCircleIcon } from "@heroicons/react/24/solid";
 import LodingButton from "../LodingButton";
 
 const Signup = () => {
-  const [current, setCurrent] = useState(0);
+  const [current, setCurrent] = useState(0); 
   const [errorMessage, setErrorMessage] = useState("");
   const [successMessage, setSuccessMessage] = useState("");
   const [loading, setLoading] = useState(false);
